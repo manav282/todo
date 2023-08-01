@@ -10,7 +10,7 @@ ReactDOM.render(
     <Provider store={store}>
     <BrowserRouter>
       <Routes>
-        <Route path="/checklist" element={<App />}/>
+        <Route path="/todo" element={<App />}/>
       </Routes>
     </BrowserRouter>
     </Provider>
